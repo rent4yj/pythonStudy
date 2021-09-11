@@ -100,3 +100,31 @@ print(a)
 print(a.strip())
 print(a.lstrip())
 print(a.rsplit())
+
+a = "train10"
+b = "asdfsa"
+c = "sadfas"
+d = "234234"
+e = "234234"
+f = "  "
+g = "sdadfas"
+h = "LSAJLFJ"
+
+print(a.isalnum())
+print(b.isalpha())
+print(c.isidentifier())
+print(d.isdecimal())
+print(e.isdigit())
+print(f.isspace())
+print(g.islower())
+print(h.isupper())
+
+output_a = "안녕안녕하세요"
+print(output_a.find("안녕"))
+print(output_a.rfind("안녕"))
+print("안녕" in output_a)
+print("잘자" in output_a)
+
+output_a = "10 20 30 40 50"
+print(output_a.split(" "))
+
